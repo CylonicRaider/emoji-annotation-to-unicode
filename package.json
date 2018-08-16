@@ -1,15 +1,16 @@
 {
   "name": "emoji-annotation-to-unicode",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Emoji annotation to unicode map",
   "main": "emoji-annotation-to-unicode.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/banyan/emoji-annotation-to-unicode.git"
+    "url": "https://github.com/CylonicRaider/emoji-annotation-to-unicode.git"
   },
   "author": "Kohei Hasegawa",
+  "contributors": ["CylonicRaider"],
   "license": "MIT",
-  "homepage": "https://github.com/banyan/emoji-annotation-to-unicode",
+  "homepage": "https://github.com/CylonicRaider/emoji-annotation-to-unicode",
   "files": [
     "README.md",
     "emoji-annotation-to-unicode.js",

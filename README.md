@@ -2,17 +2,15 @@
 
 Map (JSON) for emoji annotation to unicode generated via GitHub API.
 
+Forked from the apparently defunct original.
+
 ## Install
 
-```
-$ npm install --save emoji-annotation-to-unicode
-```
+    $ npm install --save git+https://github.com/CylonicRaider/emoji-annotation-to-unicode
 
 ## Generate
 
-```
-$ ruby generate_map.rb
-```
+    $ node generate_map.js
 
 ## Lisence
 
