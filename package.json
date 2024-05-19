@@ -1,7 +1,7 @@
 {
   "name": "emoji-annotation-to-unicode",
   "version": "0.5.0",
-  "description": "Emoji annotation to unicode map",
+  "description": "Emoji shortcode to Unicode map",
   "main": "emoji-annotation-to-unicode.js",
   "repository": {
     "type": "git",
@@ -11,9 +11,7 @@
   "contributors": ["CylonicRaider"],
   "license": "MIT",
   "homepage": "https://github.com/CylonicRaider/emoji-annotation-to-unicode",
-  "files": [
-    "README.md",
-    "emoji-annotation-to-unicode.js",
-    "package.json"
-  ]
+  "devDependencies": {
+    "tar": "^7.1.0"
+  }
 }

@@ -1,6 +1,6 @@
 # emoji-annotation-to-unicode
 
-Map (JSON) for emoji annotation to unicode generated via GitHub API.
+Map emoji shortcodes to Unicode code point sequences.
 
 Forked from the apparently defunct original.
 
@@ -8,10 +8,17 @@ Forked from the apparently defunct original.
 
     $ npm install --save git+https://github.com/CylonicRaider/emoji-annotation-to-unicode
 
-## Generate
+## Update
 
-    $ node generate_map.js
+    $ node generate-map.js
 
-## Lisence
+## Data sources
+
+The bulk of the shortcode mappings are drawn from the GitHub API. They are
+enriched with mappings for missing emoji and converted into well-formed
+fully-qualified emoji sequences using data from the `unicode-emoji` NPM
+package.
+
+## License
 
 MIT
