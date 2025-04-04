@@ -74,6 +74,12 @@ async function getPackageFile(packageName, fileName) {
   return await extractTarMember(stream.Readable.from(pkgData), fileName);
 }
 
+function evalPackageData(code) {
+  // Newer versions of unicode-emoji no longer use JSON syntax in the main
+  // data object, so eval it is!
+  return (0, eval)(`'use strict'; (${code})`);
+}
+
 async function getGithubData() {
   const githubRawData = JSON.parse(await getURL(GITHUB_URL));
 
@@ -123,7 +129,7 @@ async function getUnicodeData() {
   const rawData = await getPackageFile(PACKAGE_NAME, PACKAGE_FILE);
   const m = PACKAGE_EXTRACT.exec(rawData.toString());
   if (!m) throw new Error('Could not extract emoji data');
-  const data = JSON.parse(m[1]);
+  const data = evalPackageData(m[1]);
 
   const result = {};
   data.emojis.forEach(processEmoji);
