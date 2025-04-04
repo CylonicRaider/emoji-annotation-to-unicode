@@ -1914,6 +1914,7 @@ module.exports = {
   "zzz": "1f4a4",
   "head_shaking_horizontally": "1f642-200d-2194-fe0f",
   "head_shaking_vertically": "1f642-200d-2195-fe0f",
+  "face_with_bags_under_eyes": "1fae9",
   "waving_hand_light_skin_tone": "1f44b-1f3fb",
   "waving_hand_medium-light_skin_tone": "1f44b-1f3fc",
   "waving_hand_medium_skin_tone": "1f44b-1f3fd",
@@ -3811,8 +3812,15 @@ module.exports = {
   "family_adult_adult_child_child": "1f9d1-200d-1f9d1-200d-1f9d2-200d-1f9d2",
   "family_adult_child": "1f9d1-200d-1f9d2",
   "family_adult_child_child": "1f9d1-200d-1f9d2-200d-1f9d2",
+  "fingerprint": "1fac6",
   "phoenix": "1f426-200d-1f525",
+  "leafless_tree": "1fabe",
   "lime": "1f34b-200d-1f7e9",
   "brown_mushroom": "1f344-200d-1f7eb",
-  "broken_chain": "26d3-fe0f-200d-1f4a5"
+  "root_vegetable": "1fadc",
+  "harp": "1fa89",
+  "broken_chain": "26d3-fe0f-200d-1f4a5",
+  "shovel": "1fa8f",
+  "splatter": "1fadf",
+  "flag_sark": "1f1e8-1f1f6"
 };
